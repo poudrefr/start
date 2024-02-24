@@ -7,7 +7,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 
-# rm -fr .zshrc
+# rm -fr ~/.zshrc
 # cp ~/start/.zshrc ~/
 # rm -fr ~/powerlevel10k/config/p10k-lean.zsh
 # cp ~/start/p10k-lean.zsh ~/powerlevel10k/config/
