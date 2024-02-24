@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo apt update
 sudo apt install zsh
 sudo apt install links
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -15,8 +16,9 @@ cp ~/start/p10k-lean.zsh ~/powerlevel10k/config/
 rm -fr ~/.p10k.zsh
 cp ~/start/.p10k.zsh ~/
 
-sudo apt install nodejs npm
-npm install @ibm/plex
+sudo apt install fonts-ibm-plex
+# sudo apt install nodejs npm
+# npm install @ibm/plex
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 #touch ~/.vim_runtime/my_configs.vim
