@@ -24,3 +24,5 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 #touch ~/.vim_runtime/my_configs.vim
 echo "set number" >> ~/.vim_runtime/my_configs.vim
 
+source .zshrc
+
