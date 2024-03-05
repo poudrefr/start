@@ -2,6 +2,7 @@
 
 sudo apt update
 sudo apt install zsh
+chsh -s $(which zsh)
 sudo apt install links
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo apt install fonts-powerline
