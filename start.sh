@@ -11,7 +11,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 
 rm -fr ~/.zshrc
 cp ~/start/.zshrc ~/
-rm -fr ~/powerlevel10k/config/p10k-lean.zsh
+# rm -fr ~/powerlevel10k/config/p10k-lean.zsh
 cp ~/start/p10k-lean.zsh ~/powerlevel10k/config/
 rm -fr ~/.p10k.zsh
 cp ~/start/.p10k.zsh ~/
